@@ -3,7 +3,7 @@
 ## Project configuration ##
 
 Prerequis : 
-- node (version 19) avec npm
+- node (version 18) avec npm
 -  votre editeur (ici vs code)
 
 Dans un nouveau dossier vierge tapez 
@@ -44,8 +44,8 @@ de la meme manière dans le package.json
 Nous avons besoin de Bubojs Api ainsi que d'un adaptateur Http, par defaut nous allons utiliser TinyHttp
 
 ```
-npm i @bubojs/api@0.1.35
-npm i @bubojs/tinyhttp@0.1.15
+npm i @bubojs/api@1.0.2
+npm i @bubojs/tinyhttp@1.0.0
 ```
 
 ## Création du fichier ##
