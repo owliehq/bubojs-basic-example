@@ -1,0 +1,37 @@
+{
+  "name": "bubo_basic_startup",
+  "version": "1.0.0",
+  "description": "This project is a demonstration on how to setup a basic project with bubojs",
+  "main": "dist/index.js",
+  "type": "module",
+  "module": "Esnext",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "node  --watch --loader ts-node/esm src/server.ts",
+    "prod": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/owlie/bubo_basic_startup.git"
+  },
+  "keywords": [
+    "Bubojs",
+    "Owlie",
+    "Node"
+  ],
+  "author": "Florian GERARD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/owlie/bubo_basic_startup/issues"
+  },
+  "homepage": "https://gitlab.com/owlie/bubo_basic_startup#readme",
+  "devDependencies": {
+    "rimraf": "^4.1.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@bubojs/api": "^1.0.2",
+    "@bubojs/tinyhttp": "^1.0.0"
+  }
+}
